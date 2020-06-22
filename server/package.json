@@ -1,0 +1,21 @@
+{
+  "name": "mrn_jwt_auth",
+  "version": "1.0.0",
+  "description": "A backend of MERN stack with JWT authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "Rasil Baidar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.4",
+    "server": "^1.0.29",
+    "validator": "^13.1.1"
+  }
+}
