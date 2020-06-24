@@ -2,9 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const userRoute = require('./routes/user');
 const app = express();
+var cors = require('cors')
 require('dotenv').config();
 
 app.use(express.json());
+app.use(cors());
 const port = 5000;
 const uri = process.env.uri;
 mongoose.connect(uri,{useNewUrlParser: true, useUnifiedTopology: true });
